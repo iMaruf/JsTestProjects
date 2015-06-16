@@ -1,0 +1,18 @@
+body{margin: 0px;}
+div{
+	display: flex;
+	flex-flow:row wrap;
+}
+
+.aside1,.content,.aside2{
+	background: #ccc; border-radius: 7px; margin: 5px;
+	padding: 20px;
+}
+
+.fruit{background: orange; align-items:flex-start;}
+.messag{background: white; text-align: center;}
+.alert{background: red; text-align: center;}
+
+.aside1{order:1; flex:0 1 200px;}
+.content{order:2; min-height: 400px; flex:1;}
+.aside2{order:3; flex:0 1 200px;}
